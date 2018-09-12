@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SiestaEntityCache_Example' do
+  pod 'SiestaEntityCache', :path => '../'
+
+  target 'SiestaEntityCache_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
