@@ -1,0 +1,22 @@
+{
+  "name": "SiestaEntityCache",
+  "version": "0.1.0",
+  "summary": "A short description of SiestaEntityCache.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/caoer/SiestaEntityCache",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "caoer": "caoer115@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/caoer/SiestaEntityCache.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SiestaEntityCache/Classes/**/*"
+}

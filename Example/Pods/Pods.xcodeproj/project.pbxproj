@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00B05F78A351552C024CD3326530A17D /* Pods-SiestaEntityCache_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1CE60631237730428B67CE8339E93D4 /* Pods-SiestaEntityCache_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1423FD0B201129D490F319707B6F9C87 /* SiestaEntityCache-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C84E54ADD1CC5A72AC8FA7475352B3 /* SiestaEntityCache-dummy.m */; };
+		25AF811DD0BFA7BA1DBB76810685ABE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		30927AD217059A885C76F7CDA751919F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		5BAAF3CCA245C85B4B64B2D333CC0A61 /* SiestaEntityCache-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD364C27ED8D0AC77366318B778130DD /* SiestaEntityCache-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FD8B6ECA9D9DAA76FBABBC6FD5A2557 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		9D59B3706D46E8E8E1E45917FB4285BA /* Pods-SiestaEntityCache_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DC67033C5D1D1634E00D1864462997 /* Pods-SiestaEntityCache_Tests-dummy.m */; };
+		BBEE137B5BB8D94D62C930186A9F61B5 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74384CB4095FCA8AB1338C5142D164D3 /* ReplaceMe.swift */; };
+		EFA1A8C0854556D76D455553EE55646C /* Pods-SiestaEntityCache_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9EF7FE4D331AC166DC4BC51A0C0D16E /* Pods-SiestaEntityCache_Example-dummy.m */; };
+		F99A332696F9D673270637C930A77A25 /* Pods-SiestaEntityCache_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1495FAF35D46E1BDD7FBAC4DC892649D /* Pods-SiestaEntityCache_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8976706D6827AF7575759767A814312E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD87A862012405137B0FD0CC808BB12E;
+			remoteInfo = "Pods-SiestaEntityCache_Example";
+		};
+		CFE1C24B42EA0E1025849BC8F7A71C57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B61B046CF0699AE6E9A3E01DED8868E7;
+			remoteInfo = SiestaEntityCache;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01806CF16E34996A6CE026A2A6544728 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04202CA386F5500812393980CCF7EDD1 /* Pods-SiestaEntityCache_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SiestaEntityCache_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		05FFD3C9248CE22D80B6BE0EBC6E4C79 /* SiestaEntityCache.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = SiestaEntityCache.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		09BE26236EB9C9C49397E4B8D80E70EB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1190BD6B1EB60F4EDC7EFCCF786747DC /* Pods_SiestaEntityCache_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SiestaEntityCache_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1495FAF35D46E1BDD7FBAC4DC892649D /* Pods-SiestaEntityCache_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SiestaEntityCache_Tests-umbrella.h"; sourceTree = "<group>"; };
+		15DC67033C5D1D1634E00D1864462997 /* Pods-SiestaEntityCache_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SiestaEntityCache_Tests-dummy.m"; sourceTree = "<group>"; };
+		1923BB93862190FA468565F55623053B /* Pods-SiestaEntityCache_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SiestaEntityCache_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1C342826C3F7A4A832C3DF22BFA73C4B /* SiestaEntityCache-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SiestaEntityCache-prefix.pch"; sourceTree = "<group>"; };
+		1DBBF53A00FFCA6A61078DF02EAEF76E /* Pods-SiestaEntityCache_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SiestaEntityCache_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3B347B83B497BEEBC8AF5743BC08BCBA /* Pods-SiestaEntityCache_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SiestaEntityCache_Example.modulemap"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5B48CCA7B302E193DC057728036AC717 /* Pods-SiestaEntityCache_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SiestaEntityCache_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		66C84E54ADD1CC5A72AC8FA7475352B3 /* SiestaEntityCache-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SiestaEntityCache-dummy.m"; sourceTree = "<group>"; };
+		691FD8422CEE45D70A0BEAE39F3A6CD4 /* SiestaEntityCache.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SiestaEntityCache.modulemap; sourceTree = "<group>"; };
+		71A56D26D9E993FD97D5CF803922181B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		72A76F359C7CC2B5F2B7A568A1FDF1FE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		74384CB4095FCA8AB1338C5142D164D3 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SiestaEntityCache/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		7558F11CE3C3C89A99BBBD60B0CA035F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77AC6341C41D31E3B59D9905458EADBF /* SiestaEntityCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SiestaEntityCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82E385B75263ABADB23DCB16EDBD613C /* Pods-SiestaEntityCache_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SiestaEntityCache_Example-resources.sh"; sourceTree = "<group>"; };
+		85F8DD536027463F3E4CA2D4D38CC580 /* Pods-SiestaEntityCache_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SiestaEntityCache_Tests.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B4860A93B657C4D802A3ADB22111518 /* Pods_SiestaEntityCache_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SiestaEntityCache_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1334CFFD34AE36210CD4FE946A17F3A /* Pods-SiestaEntityCache_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SiestaEntityCache_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A9EF7FE4D331AC166DC4BC51A0C0D16E /* Pods-SiestaEntityCache_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SiestaEntityCache_Example-dummy.m"; sourceTree = "<group>"; };
+		B3E928F74C9C830C518CA79C22739F04 /* Pods-SiestaEntityCache_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SiestaEntityCache_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BD364C27ED8D0AC77366318B778130DD /* SiestaEntityCache-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SiestaEntityCache-umbrella.h"; sourceTree = "<group>"; };
+		C2176F687F599AEB3630EC7F38F81BB9 /* Pods-SiestaEntityCache_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SiestaEntityCache_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C4465A9689BB727BC0840F1385550F3C /* Pods-SiestaEntityCache_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SiestaEntityCache_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DD27BE3883A482FFF94489B723069A47 /* Pods-SiestaEntityCache_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SiestaEntityCache_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E1CE60631237730428B67CE8339E93D4 /* Pods-SiestaEntityCache_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SiestaEntityCache_Example-umbrella.h"; sourceTree = "<group>"; };
+		E6AD55B8FC25B3F9E657E6AB5F691AEB /* SiestaEntityCache.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SiestaEntityCache.xcconfig; sourceTree = "<group>"; };
+		EE48D1FD9CEA51295C6507F8BD4BF0DF /* Pods-SiestaEntityCache_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SiestaEntityCache_Tests-resources.sh"; sourceTree = "<group>"; };
+		F05C59A9069FA75C7E8A6EE092247D9C /* Pods-SiestaEntityCache_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SiestaEntityCache_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91753537508329F5C287C43354C508F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30927AD217059A885C76F7CDA751919F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8FD7F07328046C851DC51D0D768F497 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FD8B6ECA9D9DAA76FBABBC6FD5A2557 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3C29EA924F7127D81219AA4962719F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25AF811DD0BFA7BA1DBB76810685ABE0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E799B1081C7818EBE0442940DEE1629 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1190BD6B1EB60F4EDC7EFCCF786747DC /* Pods_SiestaEntityCache_Example.framework */,
+				9B4860A93B657C4D802A3ADB22111518 /* Pods_SiestaEntityCache_Tests.framework */,
+				77AC6341C41D31E3B59D9905458EADBF /* SiestaEntityCache.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1429AC3655E7B85AD2B9783AEDE37551 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				94C58EB1DDCCF7C4AD69AD5ACA934489 /* Pods-SiestaEntityCache_Example */,
+				8D41A8812573D7C0BF15E56A06A6C463 /* Pods-SiestaEntityCache_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		603C6189AF830068F40F429D94203B5D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7558F11CE3C3C89A99BBBD60B0CA035F /* Info.plist */,
+				691FD8422CEE45D70A0BEAE39F3A6CD4 /* SiestaEntityCache.modulemap */,
+				E6AD55B8FC25B3F9E657E6AB5F691AEB /* SiestaEntityCache.xcconfig */,
+				66C84E54ADD1CC5A72AC8FA7475352B3 /* SiestaEntityCache-dummy.m */,
+				1C342826C3F7A4A832C3DF22BFA73C4B /* SiestaEntityCache-prefix.pch */,
+				BD364C27ED8D0AC77366318B778130DD /* SiestaEntityCache-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SiestaEntityCache";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				9E7D294B66677F9989128714B741DF8F /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0E799B1081C7818EBE0442940DEE1629 /* Products */,
+				1429AC3655E7B85AD2B9783AEDE37551 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8D41A8812573D7C0BF15E56A06A6C463 /* Pods-SiestaEntityCache_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				09BE26236EB9C9C49397E4B8D80E70EB /* Info.plist */,
+				85F8DD536027463F3E4CA2D4D38CC580 /* Pods-SiestaEntityCache_Tests.modulemap */,
+				B3E928F74C9C830C518CA79C22739F04 /* Pods-SiestaEntityCache_Tests-acknowledgements.markdown */,
+				DD27BE3883A482FFF94489B723069A47 /* Pods-SiestaEntityCache_Tests-acknowledgements.plist */,
+				15DC67033C5D1D1634E00D1864462997 /* Pods-SiestaEntityCache_Tests-dummy.m */,
+				04202CA386F5500812393980CCF7EDD1 /* Pods-SiestaEntityCache_Tests-frameworks.sh */,
+				EE48D1FD9CEA51295C6507F8BD4BF0DF /* Pods-SiestaEntityCache_Tests-resources.sh */,
+				1495FAF35D46E1BDD7FBAC4DC892649D /* Pods-SiestaEntityCache_Tests-umbrella.h */,
+				5B48CCA7B302E193DC057728036AC717 /* Pods-SiestaEntityCache_Tests.debug.xcconfig */,
+				1DBBF53A00FFCA6A61078DF02EAEF76E /* Pods-SiestaEntityCache_Tests.release.xcconfig */,
+			);
+			name = "Pods-SiestaEntityCache_Tests";
+			path = "Target Support Files/Pods-SiestaEntityCache_Tests";
+			sourceTree = "<group>";
+		};
+		94C58EB1DDCCF7C4AD69AD5ACA934489 /* Pods-SiestaEntityCache_Example */ = {
+			isa = PBXGroup;
+			children = (
+				01806CF16E34996A6CE026A2A6544728 /* Info.plist */,
+				3B347B83B497BEEBC8AF5743BC08BCBA /* Pods-SiestaEntityCache_Example.modulemap */,
+				F05C59A9069FA75C7E8A6EE092247D9C /* Pods-SiestaEntityCache_Example-acknowledgements.markdown */,
+				1923BB93862190FA468565F55623053B /* Pods-SiestaEntityCache_Example-acknowledgements.plist */,
+				A9EF7FE4D331AC166DC4BC51A0C0D16E /* Pods-SiestaEntityCache_Example-dummy.m */,
+				C2176F687F599AEB3630EC7F38F81BB9 /* Pods-SiestaEntityCache_Example-frameworks.sh */,
+				82E385B75263ABADB23DCB16EDBD613C /* Pods-SiestaEntityCache_Example-resources.sh */,
+				E1CE60631237730428B67CE8339E93D4 /* Pods-SiestaEntityCache_Example-umbrella.h */,
+				C4465A9689BB727BC0840F1385550F3C /* Pods-SiestaEntityCache_Example.debug.xcconfig */,
+				A1334CFFD34AE36210CD4FE946A17F3A /* Pods-SiestaEntityCache_Example.release.xcconfig */,
+			);
+			name = "Pods-SiestaEntityCache_Example";
+			path = "Target Support Files/Pods-SiestaEntityCache_Example";
+			sourceTree = "<group>";
+		};
+		9E7D294B66677F9989128714B741DF8F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B93E6961A629AC712A46B8F13141BC9E /* SiestaEntityCache */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		ACBF9EE15DC4B6FFDF148E7D004D31DA /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				71A56D26D9E993FD97D5CF803922181B /* LICENSE */,
+				72A76F359C7CC2B5F2B7A568A1FDF1FE /* README.md */,
+				05FFD3C9248CE22D80B6BE0EBC6E4C79 /* SiestaEntityCache.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B93E6961A629AC712A46B8F13141BC9E /* SiestaEntityCache */ = {
+			isa = PBXGroup;
+			children = (
+				74384CB4095FCA8AB1338C5142D164D3 /* ReplaceMe.swift */,
+				ACBF9EE15DC4B6FFDF148E7D004D31DA /* Pod */,
+				603C6189AF830068F40F429D94203B5D /* Support Files */,
+			);
+			name = SiestaEntityCache;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		76C8ECC2629F0C55E7E980896E9F531F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F99A332696F9D673270637C930A77A25 /* Pods-SiestaEntityCache_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8464EC709668A566C77607794F5155D7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00B05F78A351552C024CD3326530A17D /* Pods-SiestaEntityCache_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97B639DF7DA6A1DB6246246DBB2B89BB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BAAF3CCA245C85B4B64B2D333CC0A61 /* SiestaEntityCache-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7F962A5744262156EBC97FFFE74F8719 /* Pods-SiestaEntityCache_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84DF3009D71658E85F364ACEB4B836DB /* Build configuration list for PBXNativeTarget "Pods-SiestaEntityCache_Tests" */;
+			buildPhases = (
+				76C8ECC2629F0C55E7E980896E9F531F /* Headers */,
+				46AE64C4FF90835C8172CE3956669492 /* Sources */,
+				C8FD7F07328046C851DC51D0D768F497 /* Frameworks */,
+				A9F2F5BA02FD703555251DD034264582 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				860B8BAD5FCBB7F6E2FFD1E703BEDDFF /* PBXTargetDependency */,
+			);
+			name = "Pods-SiestaEntityCache_Tests";
+			productName = "Pods-SiestaEntityCache_Tests";
+			productReference = 9B4860A93B657C4D802A3ADB22111518 /* Pods_SiestaEntityCache_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B61B046CF0699AE6E9A3E01DED8868E7 /* SiestaEntityCache */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E86AD41189DBA0DAD80365F85769E288 /* Build configuration list for PBXNativeTarget "SiestaEntityCache" */;
+			buildPhases = (
+				97B639DF7DA6A1DB6246246DBB2B89BB /* Headers */,
+				CC9906991AD058603D83D1997F02393C /* Sources */,
+				91753537508329F5C287C43354C508F5 /* Frameworks */,
+				E7C470CA87D73B09E0573E0C5223E597 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SiestaEntityCache;
+			productName = SiestaEntityCache;
+			productReference = 77AC6341C41D31E3B59D9905458EADBF /* SiestaEntityCache.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DD87A862012405137B0FD0CC808BB12E /* Pods-SiestaEntityCache_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C54A0ABA87F82D283D1C58386B759C03 /* Build configuration list for PBXNativeTarget "Pods-SiestaEntityCache_Example" */;
+			buildPhases = (
+				8464EC709668A566C77607794F5155D7 /* Headers */,
+				CECC6430F6A47DAF064522F6836F2CD1 /* Sources */,
+				F3C29EA924F7127D81219AA4962719F4 /* Frameworks */,
+				2F4B4E250743C622C585A5481CD650D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52F2BA3EC4A1D0C20884ADDEFB070FF9 /* PBXTargetDependency */,
+			);
+			name = "Pods-SiestaEntityCache_Example";
+			productName = "Pods-SiestaEntityCache_Example";
+			productReference = 1190BD6B1EB60F4EDC7EFCCF786747DC /* Pods_SiestaEntityCache_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0940;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0E799B1081C7818EBE0442940DEE1629 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD87A862012405137B0FD0CC808BB12E /* Pods-SiestaEntityCache_Example */,
+				7F962A5744262156EBC97FFFE74F8719 /* Pods-SiestaEntityCache_Tests */,
+				B61B046CF0699AE6E9A3E01DED8868E7 /* SiestaEntityCache */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F4B4E250743C622C585A5481CD650D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9F2F5BA02FD703555251DD034264582 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7C470CA87D73B09E0573E0C5223E597 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46AE64C4FF90835C8172CE3956669492 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D59B3706D46E8E8E1E45917FB4285BA /* Pods-SiestaEntityCache_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC9906991AD058603D83D1997F02393C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBEE137B5BB8D94D62C930186A9F61B5 /* ReplaceMe.swift in Sources */,
+				1423FD0B201129D490F319707B6F9C87 /* SiestaEntityCache-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECC6430F6A47DAF064522F6836F2CD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFA1A8C0854556D76D455553EE55646C /* Pods-SiestaEntityCache_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52F2BA3EC4A1D0C20884ADDEFB070FF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SiestaEntityCache;
+			target = B61B046CF0699AE6E9A3E01DED8868E7 /* SiestaEntityCache */;
+			targetProxy = CFE1C24B42EA0E1025849BC8F7A71C57 /* PBXContainerItemProxy */;
+		};
+		860B8BAD5FCBB7F6E2FFD1E703BEDDFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SiestaEntityCache_Example";
+			target = DD87A862012405137B0FD0CC808BB12E /* Pods-SiestaEntityCache_Example */;
+			targetProxy = 8976706D6827AF7575759767A814312E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		56A05ADD3BABDA1B56D1F979845809B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		582889E54B32632411B7A3C7A41F08AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DBBF53A00FFCA6A61078DF02EAEF76E /* Pods-SiestaEntityCache_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SiestaEntityCache_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SiestaEntityCache_Tests/Pods-SiestaEntityCache_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6752078F62264C65E7EFFEC51EC513A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B48CCA7B302E193DC057728036AC717 /* Pods-SiestaEntityCache_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SiestaEntityCache_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SiestaEntityCache_Tests/Pods-SiestaEntityCache_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		770C6D5C9392E07A836B38891E3EB6C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6AD55B8FC25B3F9E657E6AB5F691AEB /* SiestaEntityCache.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SiestaEntityCache/SiestaEntityCache-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SiestaEntityCache/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SiestaEntityCache/SiestaEntityCache.modulemap";
+				PRODUCT_MODULE_NAME = SiestaEntityCache;
+				PRODUCT_NAME = SiestaEntityCache;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8144EB5CDE995232DA1B59FC07C84C34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6AD55B8FC25B3F9E657E6AB5F691AEB /* SiestaEntityCache.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SiestaEntityCache/SiestaEntityCache-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SiestaEntityCache/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SiestaEntityCache/SiestaEntityCache.modulemap";
+				PRODUCT_MODULE_NAME = SiestaEntityCache;
+				PRODUCT_NAME = SiestaEntityCache;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BEFDB93BF207328A04F1220475D02C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D054903F9FC9BD5483C7F28490B1E629 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4465A9689BB727BC0840F1385550F3C /* Pods-SiestaEntityCache_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SiestaEntityCache_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SiestaEntityCache_Example/Pods-SiestaEntityCache_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D13636CBF57EBA9765E2FD10ED03FB41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1334CFFD34AE36210CD4FE946A17F3A /* Pods-SiestaEntityCache_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SiestaEntityCache_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SiestaEntityCache_Example/Pods-SiestaEntityCache_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEFDB93BF207328A04F1220475D02C3B /* Debug */,
+				56A05ADD3BABDA1B56D1F979845809B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84DF3009D71658E85F364ACEB4B836DB /* Build configuration list for PBXNativeTarget "Pods-SiestaEntityCache_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6752078F62264C65E7EFFEC51EC513A1 /* Debug */,
+				582889E54B32632411B7A3C7A41F08AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C54A0ABA87F82D283D1C58386B759C03 /* Build configuration list for PBXNativeTarget "Pods-SiestaEntityCache_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D054903F9FC9BD5483C7F28490B1E629 /* Debug */,
+				D13636CBF57EBA9765E2FD10ED03FB41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E86AD41189DBA0DAD80365F85769E288 /* Build configuration list for PBXNativeTarget "SiestaEntityCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				770C6D5C9392E07A836B38891E3EB6C9 /* Debug */,
+				8144EB5CDE995232DA1B59FC07C84C34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

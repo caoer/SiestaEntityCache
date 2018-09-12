@@ -1,0 +1,16 @@
+PODS:
+  - SiestaEntityCache (0.1.0)
+
+DEPENDENCIES:
+  - SiestaEntityCache (from `../`)
+
+EXTERNAL SOURCES:
+  SiestaEntityCache:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SiestaEntityCache: 194b2905bb386183d2a472a04d8c665297db89f1
+
+PODFILE CHECKSUM: 638ac0d33fc0ad46515db502f7fc1f8017e0576a
+
+COCOAPODS: 1.5.3
